@@ -43,3 +43,9 @@ body {
 .grid-item-6 {
   grid-column: span 2;
 }
+
+.grid-item-22,
+.grid-item-44,
+.grid-item-55 {
+  grid-row: span 2;
+}
