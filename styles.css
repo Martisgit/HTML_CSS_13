@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div > div {
+  border: 1px solid purple;
+  font-size: 30px;
+  background-color: seashell;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(63, 2, 63);
+  margin: 0;
+}
+
+.page-wrapper {
+  background-color: purple;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  background-color: purple;
+}
+
+.grid-container-1 {
+  height: 150px;
+  width: 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item-2,
+.grid-item-3,
+.grid-item-6 {
+  grid-column: span 2;
+}
